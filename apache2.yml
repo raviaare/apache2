@@ -1,0 +1,8 @@
+---
+- hosts: apache2
+  sudo: yes
+  vars:
+    http_port: 80
+    domain: example.com
+  roles:
+    - apache2
