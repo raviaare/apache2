@@ -33,6 +33,3 @@
     - name: clone basic html template
       git: repo=https://github.com/do-community/ansible-apache-tutorial.git dest=/var/www/example.com update=no
 
-  handlers:
-    - name: restart apache2
-      service: name=apache2 state=restarted

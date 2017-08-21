@@ -3,6 +3,6 @@
   sudo: yes
   vars:
     http_port: 80
-    domain: example.com
+    domain: apache.example.com
   roles:
     - apache2
